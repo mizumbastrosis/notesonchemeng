@@ -1,0 +1,145 @@
+body {
+	font-family: tahoma; 
+}
+
+.ContentList ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.ContentList ul li {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	border: 1px solid black;
+    display: none;
+    font-weight: normal;
+    position: absolute;
+    background-color: #E8F1F3;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+	padding: 40px 40px;
+	float: right;
+} 
+
+.Home {
+	margin: 0px 45% 10px 210px;
+}
+
+.Home h1 {
+	color: #354F53;
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+	text-shadow: 0px 1px #000000;
+}
+
+.Welcome {
+	text-align: justify;
+	justify-content: space-between;
+}
+
+.LeftTable {
+	background: #B6CBEB;
+	border-bottom: 4px double #354F53;
+	border-right: 4px double #354F53;
+	float: left;
+	min-height: 450px;
+	margin: 0 1% 0 0;
+	text-align: left;
+	width: 210px;
+ }
+
+ .LeftTable ul li {
+ 	list-style-type: none;
+ }
+
+ .LeftTable ul li ul li {
+ 	list-style-type: lower-greek;
+ }
+
+.LeftTable h1 {
+	color: #354F53;
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 0px 1px #000000;
+}
+
+.SubContent {
+	display: none;
+}
+
+.MasterContent:hover .SubContent {
+	display: block;
+}
+
+.MyNav {
+	border-bottom: 4px double #354F53;
+	background: #B6CBEB;
+ }
+
+.MyNav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.MyNav ul li {
+ 	display: inline-block;
+ 	list-style-type: none;
+ }
+
+.MyPanel {
+	background: #B6CBEB;
+	border-bottom: 4px double #354F53;
+	padding: 5px;
+}
+
+.MyPanel header {
+	border: 4px double #354F53;
+	border-radius: 0px;
+	box-shadow: 0px 0px 70px -20px rgba(0,0,0,0.4);
+	margin: 20px 10%;
+	padding: 20px;
+}
+
+.MyPanel header h1 {
+	color: #354F53;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+}
+
+ .NavList {
+ 	color: #354F53;
+ 	font-weight: bold;
+ 	padding: 4px 100px;
+ 	text-align: center;
+ }
