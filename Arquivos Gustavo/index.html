@@ -1,0 +1,226 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		
+		<title>Notes on Chemical Engineering</title>
+		<link rel="stylesheet" href="stylesheets/main.css">
+		
+		<!--BOOTSTRAPT CSS-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">	
+		
+		<!-- MATHJAX JAVASCRIPT -->
+		<script type="text/javascript" async
+			src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+	</head>
+	
+	<body>
+		
+		<!--BOOTSTRAP NAVBAR-->
+		<header class="navbar-inverse">
+		  <div class="container"> 	
+			<nav class="navigation">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">NOTES ON CHEMICAL ENGINEERING</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+					<li><a href="about.html">About</a></li>
+					<li  class="active" class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contents<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+							<li><a href="contents.html">Contents Overview</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Introduction to Process Engineering</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a tabindex="-1" href="#">Second level</a></li> -->
+									<li><a href="#">History of Chemical Engineering</a></li>
+									<li><a href="#">Working Areas and Attributions of a Chemical Engineer</a></li>
+									<li><a href="#">Introduction to Process Calculations</a></li>
+									<li><a href="#">Organic and Inorganic Chemistry</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Mathematics Fundamentals</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a tabindex="-1" href="#">Second level</a></li> -->
+									<li><a href="#">Calculus: Solution of ODEs and PDEs</a></li>
+									<li><a href="#">Linear Algebra</a></li>
+									<li><a href="#">Univariate Statistics</a></li>
+									<li><a href="#">Numerical Methods</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Engineering Fundamentals</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a tabindex="-1" href="#">Second level</a></li> -->
+									<li><a href="#">Thermodynamics</a></li>
+									<li><a href="#">Fluid Mechanics</a></li>
+									<li><a href="#">Heat and Mass Transfer</a></li>
+									<li><a href="#">Reaction Kinetics</a></li>
+									<li><a href="#">System Dynamics</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Applied Engineering</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a tabindex="-1" href="#">Second level</a></li> -->
+									<li><a href="#">Unit Operations</a></li>
+									<li><a href="#">Process Engineering</a></li>
+									<li><a href="#">Process Control</a></li>
+									<li><a href="#">Organic and Inorganic Processes</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Applied Computational Tools</a>
+								<ul class="dropdown-menu">
+									<!-- <li><a tabindex="-1" href="#">Second level</a></li> -->
+									<li><a href="#">Static Process Simulation</a></li>
+									<li><a href="#">Dynamic Process Simulation</a></li>
+									<li><a href="#">Thermodynamic Properties Calculations</a></li>
+									<li><a href="#">Optimization</a></li>
+									<li><a href="#">Real Time Optimization</a></li>
+									<li><a href="#">Process Design via Discrete Optimization</a></li>
+									<li><a href="#">Multivariate Statistics and Experimental Design</a></li>
+									<li><a href="#">Parameter Estimation</a></li>
+									<li><a href="#">Dynamical Systems Identification</a></li>
+									<li><a href="#">Fault Detection and Diagnosis</a></li>
+									<li><a href="#">Multiavariable Predictive Control</a></li>
+									<li><a href="#">Computacional Fluid Dynamics</a></li>
+									<li><a href="#">Molecular Simulation</a></li>
+								</ul>
+							</li>
+					  </ul>
+					</li>
+					<li><a href="about.html">Links</a></li>
+				  <li><a href="about.html">Contact</a></li>
+				  </ul>
+				  <form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				  </form>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		  </div>
+		</header>
+		
+
+		<div id="wrapper">
+		
+			<!-- <div id="header">
+				<nav>
+					<h1>Notes on Chemical Engineering</h1>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contents.html">Contents</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="links.html">Links</a></li>
+					</ul>
+				</nav>
+			</div> -->
+			
+			<div id="content">
+			
+				<h1 class="titulo">Welcome to "Notes on Chemical Engineering"</h2>
+				<p>Navigate through the top menu to access our contents</p>
+				<h3>Quick About: </h3>
+				<div class="panel panel-default">
+					<div class="panel-body">This website serves as a reference material for students and practitioners who would like to learn and apply process engineering.</div>
+				</div>
+				<h3>Quick Contents:</h3>
+				<div class="panel panel-default">
+					<div class="panel-body">Out content is free and focus on providing the necessary process engineering concepts for solving real life problems, always with the final application in mind.</div>
+				</div>
+				
+				<div id="slider" style="margin-bottom:20px">
+					<ul class="slides">
+						<li class="slide"><img class="imgslides" src="images/slider1.jpg"/></li>
+						<li class="slide"><img class="imgslides" src="images/slider2.jpg"/></li>
+						<li class="slide"><img class="imgslides" src="images/slider3.jpg"/></li>
+						<li class="slide"><img class="imgslides" src="images/slider4.jpg"/></li>
+						<li class="slide"><img class="imgslides" src="images/slider1.jpg"/></li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<div id="footer">
+				<p>(C)2016 Notesonchemeng</p>
+			</div>
+			
+		</div>
+		
+		<!--BOOTSTRAP JAVASCRIPT-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/testScript.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+		<!-- JQUERY LIB -->
+		<script type="text/javascript" src="jquery/jquery-1.12.2.js"></script>
+
+		<!-- SLIDER JS CODE -->
+		<script>
+		
+			//configuration
+			var width = 720;
+			var animationSpeed = 1000;
+			var pause = 3000;
+			var currentSlide = 1;
+			var interval;
+			
+			//cache DOM
+			var $slider = $('#slider');
+			var $slideContainer = $slider.find('.slides');
+			var $slides = $slideContainer.find('.slide');
+			
+			function startSlider(){
+				interval = setInterval(function(){
+					$slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function(){
+						currentSlide++;
+						if (currentSlide === $slides.length){
+							currentSlide = 1;
+							$slideContainer.css('margin-left',0);
+						}
+					});
+				},pause);
+			}; 
+			
+			function stopSlider(){
+			clearInterval(interval);
+			}
+			//listen for mouseenter and pause
+			$slider.on('mouseenter',stopSlider).on('mouseleave',startSlider);
+			
+			startSlider();
+			
+		
+		
+		</script>
+	
+	
+	</body>
+	
+</html>
